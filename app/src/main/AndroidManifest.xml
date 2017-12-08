@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tahasaber.chatwithme">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="21" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode='singleTask'></activity>
+        <activity
+            android:name=".ChatActivity"
+            android:launchMode='singleTask'
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".AddUserActivity"
+            android:launchMode='singleTask'
+            android:theme="@android:style/Theme.Holo.Dialog">
+
+        </activity>
+
+        <activity
+            android:name=".UserProfileActivity"
+            android:launchMode='singleTask'
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".EditUserNameActivity"
+            android:launchMode='singleTask'
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".EditUserDescriptionActivity"
+            android:launchMode='singleTask'
+            android:theme="@style/AppTheme.CustomTheme" />
+
+    </application>
+
+</manifest>

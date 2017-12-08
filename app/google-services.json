@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "674098953708",
+    "firebase_url": "https://chatwithme-faab9.firebaseio.com",
+    "project_id": "chatwithme-faab9",
+    "storage_bucket": "chatwithme-faab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674098953708:android:b0e8482729e5d687",
+        "android_client_info": {
+          "package_name": "com.example.tahasaber.chatwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674098953708-96d9flr61arucvru5ossncct0s43udch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tahasaber.chatwithme",
+            "certificate_hash": "63eebae4a3ac185f8769170551a92709c656f6ba"
+          }
+        },
+        {
+          "client_id": "674098953708-edvk8un6ljd88tpkhr9p8j7e5rbutd4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRCGbUyA1mE3G4KYT3QtvrfXL-Tgw33yY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674098953708-edvk8un6ljd88tpkhr9p8j7e5rbutd4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
